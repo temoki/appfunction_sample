@@ -1,0 +1,41 @@
+# Build artifacts
+.gradle/
+build/
+bin/
+gen/
+out/
+
+# Kotlin
+.kotlin/
+
+# IntelliJ IDEA / Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Android
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+output.json
+
+# Log files
+*.log
+
+# Keystore files
+# It is recommended to keep your keystore files outside of your source control.
+# If you must keep them in your source control, uncomment the lines below.
+*.jks
+*.keystore
+
+# Google Services
+# google-services.json
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Secrets
+secrets.properties
