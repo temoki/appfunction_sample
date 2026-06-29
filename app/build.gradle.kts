@@ -54,9 +54,9 @@ dependencies {
 
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
-    implementation(libs.androidx.appfunctions)
-    implementation(libs.androidx.appfunctions.service)
-    ksp(libs.androidx.appfunctions.compiler)
+    implementation("androidx.appfunctions:appfunctions:1.0.0-alpha09")
+    implementation("androidx.appfunctions:appfunctions-service:1.0.0-alpha09")
+    ksp("androidx.appfunctions:appfunctions-compiler:1.0.0-alpha09")
     implementation(libs.errorprone.annotations)
 
     testImplementation(libs.junit)

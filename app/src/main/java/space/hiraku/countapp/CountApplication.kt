@@ -11,6 +11,10 @@ class CountApplication : Application(), AppFunctionConfiguration.Provider {
     @Inject
     lateinit var countAppFunctions: CountAppFunctions
 
+    override fun onCreate() {
+        super.onCreate()
+    }
+
     override val appFunctionConfiguration: AppFunctionConfiguration
         get() = AppFunctionConfiguration.Builder()
             .addEnclosingClassFactory(CountAppFunctions::class.java) {

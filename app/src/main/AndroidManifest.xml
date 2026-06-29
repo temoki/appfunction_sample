@@ -13,10 +13,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CountApp">
 
-        <property
-            android:name="android.app.appfunctions.app_metadata"
-            android:resource="@xml/app_metadata" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true"
