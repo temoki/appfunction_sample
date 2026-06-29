@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<appfunctions>
+    <appfunction>
+        <id>space.hiraku.countapp.CountAppFunctions#countUp</id>
+        <enabledByDefault>true</enabledByDefault>
+        <description>Increments the count and returns the new value.</description>
+        <response>
+            <id>unused</id>
+            <valueType>
+                <dataTypeReference>space.hiraku.countapp.CountAppFunctions$Count</dataTypeReference>
+                <id>unused</id>
+                <isNullable>false</isNullable>
+                <type>11</type>
+            </valueType>
+        </response>
+        <functionId>space.hiraku.countapp.CountAppFunctions#countUp</functionId>
+    </appfunction>
+    <AppFunctionComponentMetadataDocument>
+        <dataTypes>
+            <dataTypeMetadata>
+                <id>unused</id>
+                <isNullable>true</isNullable>
+                <objectQualifiedName>space.hiraku.countapp.CountAppFunctions$Count</objectQualifiedName>
+                <description>Represents the current count. </description>
+                <properties>
+                    <dataTypeMetadata>
+                        <id>unused</id>
+                        <isNullable>false</isNullable>
+                        <type>7</type>
+                    </dataTypeMetadata>
+                    <id>unused</id>
+                    <name>value</name>
+                </properties>
+                <required>value</required>
+                <type>3</type>
+            </dataTypeMetadata>
+            <id>unused</id>
+            <name>space.hiraku.countapp.CountAppFunctions$Count</name>
+        </dataTypes>
+        <id>unused</id>
+    </AppFunctionComponentMetadataDocument>
+</appfunctions>
